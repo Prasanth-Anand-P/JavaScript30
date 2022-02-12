@@ -3,4 +3,4 @@
 <p align="center">
   <img src="output.JPG" height="400px" width="800px">
 </p>
-<h3>Today I learned how to make multiple check boxes get cheked by holding shift key using JS</h3>
+<h3>Today I learned how to make multiple check boxes get checked by holding shift key using JS</h3>
