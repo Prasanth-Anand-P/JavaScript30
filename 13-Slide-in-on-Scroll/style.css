@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: pink;
+	color: white;
+	font-size:20px ;
+}
+
+.site-wrap{
+	width: 700px;
+	margin: 100px auto;
+	background: brown;
+	padding: 30px;
+	border: 8px rgba(0, 0, 0, 0.3) solid;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.align-right {
+	float: right;  
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.align-left{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.slide-in{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.align-left.slide-in{
+	transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+      transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+	opacity: 1;
+	transform: translateX(0) scale(1.0);
+}
